@@ -1,0 +1,31 @@
+{
+  "name": "overwrite-bot",
+  "version": "1.0.0",
+  "description": "Overwrite Bot is a fully modular Discord bot, allowing you to enable or disable all features and commands according to your preferences, making it completely customizable. It is a self-hosted bot, which means you need to host and maintain your own instance. Overwrite Bot can be transformed into an admin bot, games bot, giveaway bot, your new best friend, or any combination of these features!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aoi.js",
+    "aoi.js-bot",
+    "aoi-bot",
+    "aoi.js-template"
+  ],
+  "author": "rendra.exe",
+  "license": "MIT",
+  "dependencies": {
+    "@akarui/aoi.parser": "^1.0.1",
+    "@aoijs/aoi.db": "^0.0.0",
+    "aoi.js": "^6.8.5",
+    "body-parser": "^1.20.2",
+    "discord-gamecord": "^4.4.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0"
+  }
+}
