@@ -97,6 +97,7 @@ client.joinCommand({
     channel: "$getGuildVar[welcome_ch]",
     code: `
     $author[$username[$authorID];$userAvatar[$authorID]]
+    $title[<:ov1:1271069769784754176><:ov2:1271069771990831135><:ov3:1271069758443360307><:ov4:1271069760754552865><:ov5:1271069763098902641><:ov6:1271069765091328050><:ov7:1271069767545131079>]
     $description[
 Selamat datang <@$authorID> di **$guildName[$guildID]**
 
@@ -107,7 +108,7 @@ Selamat datang <@$authorID> di **$guildName[$guildID]**
 > **User IDs**
 > <@$authorID> ($authorID)
 > **#BE A SMART BUYER**]
-    $image[https://media.discordapp.net/attachments/1239568210823610408/1269109620572688384/overwrite_banner.png?ex=66aeddf0&is=66ad8c70&hm=64b24812b3a7b71d9a7e54e3f25578b8d4276b5c912f9c8f2c7160241701e2d9&=&format=webp&quality=lossless&width=1025&height=135]
+    $image[https://media.discordapp.net/attachments/1270719761805742100/1271068338495164507/overwrite_banner.png?ex=66b5fe23&is=66b4aca3&hm=dd7c42c40499546d2f584f7d80261b73b60bc8e3ea92966be803141d5c15dc30&=&format=webp&quality=lossless&width=1025&height=135]
     $footer[$guildName[$guildID];$guildIcon[$guildID]]
     $addTimestamp
     $color[#00FFFF]
@@ -118,9 +119,10 @@ client.leaveCommand({
     channel: "$getGuildVar[goodbye_ch]",
     code: `
     $author[$username[$authorID];$userAvatar[$authorID]]
+    $title[<:ov1:1271069769784754176><:ov2:1271069771990831135><:ov3:1271069758443360307><:ov4:1271069760754552865><:ov5:1271069763098902641><:ov6:1271069765091328050><:ov7:1271069767545131079>]
     $description[
 Selamat tinggal <@$authorID>, ku kira hubungan mu dengan **$guildName[$guildID]** spesial]
-    $image[https://media.discordapp.net/attachments/1239568210823610408/1269109620572688384/overwrite_banner.png?ex=66aeddf0&is=66ad8c70&hm=64b24812b3a7b71d9a7e54e3f25578b8d4276b5c912f9c8f2c7160241701e2d9&=&format=webp&quality=lossless&width=1025&height=135]
+    $image[https://media.discordapp.net/attachments/1270719761805742100/1271068338495164507/overwrite_banner.png?ex=66b5fe23&is=66b4aca3&hm=dd7c42c40499546d2f584f7d80261b73b60bc8e3ea92966be803141d5c15dc30&=&format=webp&quality=lossless&width=1025&height=135]
     $footer[$guildName[$guildID];$guildIcon[$guildID]]
     $addTimestamp
     $color[#00FFFF]
